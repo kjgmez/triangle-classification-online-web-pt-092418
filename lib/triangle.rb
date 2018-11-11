@@ -15,6 +15,7 @@ class Triangle
     elsif side1.length == 0 && side3.length == 0 && side3.length == 0
       begin
         raise TriangleError
+      end
     end
   end
 
