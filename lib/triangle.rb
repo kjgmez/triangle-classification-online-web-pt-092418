@@ -6,7 +6,7 @@ class Triangle
     @three=three
   end
   def kind
-    if one == 0 || two == 0 || three == 0 || one < 0 || two < 0 || three < 0 || one + two < three || two + three < one || one + three < two || two > three || two > one
+    if one == 0 || two == 0 || three == 0 || one < 0 || two < 0 || three < 0 || one + two < three || two + three < one || one + three < two || two > three && two > one
       raise TriangleError
     elsif one == two && two == three
       :equilateral
