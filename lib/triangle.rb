@@ -22,8 +22,8 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    def message
-      "Enter the values of a valid triangel"
-    end
+    # def message
+    #   "Enter the values of a valid triangel"
+    # end
   end
 end
