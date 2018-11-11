@@ -15,9 +15,6 @@ class Triangle
     elsif side1.length == 0 && side3.length == 0 && side3.length == 0
       begin
         raise TriangleError
-      rescue TriangleError => error
-        puts error.message
-      end
     end
   end
 
